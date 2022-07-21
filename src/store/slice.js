@@ -4,7 +4,7 @@ import { combineReducers } from "redux";
 export const chatSlice = createSlice({
   name: "chat",
   initialState: {
-    data: [{}],
+    data: { message: [] },
   },
   reducers: {
     updateChat: (state, action) => ({
